@@ -259,8 +259,8 @@ async def test(ctx): # defines the name of the function and also the name of the
         except NameError:
             await ctx.send("Please enter a valid time do book your COVID test")# if the user doesn't select a time in the correct format this code will run, prompting the user to select a proper time
 
-    sender_email = "marstonmax94@gmail.com"
-    sender_password = "Maximised2002"
+    sender_email = "sender email goes here""
+    sender_password = "sender passowrd goes here"
     receiver_email = user_email #will use the email that the user inputted as the receiver email
 
 
@@ -313,4 +313,4 @@ async def test(ctx): # defines the name of the function and also the name of the
 
 
 
-client.run('ODExMjk2MTA1MDM0ODA5Mzc3.YCwIYA.Czu7d9E6FTGM--CW4NVHZsoJexc')
+client.run('client token goes here')
